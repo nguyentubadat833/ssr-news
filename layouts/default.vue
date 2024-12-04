@@ -3,13 +3,12 @@
 </script>
 
 <template>
-  <UContainer>
+  <div>
     <UiHeader/>
-    <div>
+    <UContainer class="py-3">
       <NuxtPage/>
-    </div>
-    <UiFooter/>
-  </UContainer>
+    </UContainer>
+  </div>
 </template>
 
 <style scoped>
